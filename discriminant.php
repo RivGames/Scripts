@@ -1,5 +1,5 @@
 <?php
-//Discriminant function
+//Discriminant function(simple)
 function discriminant($x,$y,$z)
 {
     $a = $x;
