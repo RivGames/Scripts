@@ -16,5 +16,5 @@ function truncation($str, $length)
     return implode(" ", $words) . ' ' . $last . '...';
 }
 $text = "Демонстрация работы скрипта правильной обрезки текста!!! Тестируем работу.";
-//
+
 echo truncation($text, 60);
